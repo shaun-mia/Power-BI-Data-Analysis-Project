@@ -23,6 +23,8 @@ The project leverages **DAX (Data Analysis Expressions)** for dynamic calculatio
 - **Dataset on Kaggle**: The dataset used for this project is publicly available on Kaggle. You can find it here: [Netflix Dataset on Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows).  
 - **Live Dashboard View**: Explore the live version of this project on my portfolio website: [shaun-mia.github.io/](https://shaun-mia.github.io/).
 
+![image](https://github.com/user-attachments/assets/a3cefc42-08e2-4c8b-a420-aaf2d27ebed8)
+
 ---
 
 ## 🔍 Project Insights  

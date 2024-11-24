@@ -7,6 +7,9 @@ The **Movies Analytics Dashboard** is an interactive Power BI dashboard built to
 
  You can view the dashboard live on my [portfolio site](https://shaun-mia.github.io/).
  Or [Web](https://app.powerbi.com/view?r=eyJrIjoiYjMwZTBkMzktMmVkNS00NmFmLWI5ZDUtZTRjMjk0MTM5MDk1IiwidCI6IjEyYjQwYmQxLTllNjEtNDMyOS1iNGJmLTk2MjQ1NTgzOGQ4OCIsImMiOjEwfQ%3D%3D)
+
+ ![image](https://github.com/user-attachments/assets/40401a9c-ee91-490f-8c17-22219e918688)
+
 ---
 
 ## Features

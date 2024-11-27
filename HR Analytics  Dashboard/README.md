@@ -5,7 +5,7 @@
 The HR Analytics Dashboard is designed to provide HR teams with actionable insights into employee performance, satisfaction, demographics, and attrition trends. By integrating SQL-based HR data, this dashboard empowers data-driven decision-making, enabling HR teams to improve organizational performance.
 
  You can view the dashboard live on my [portfolio site](https://shaun-mia.github.io/).
- Or [Web](https://app.powerbi.com/view?r=eyJrIjoiZTc1N2JmZDUtOGU0ZS00Nzk3LWEwZTctYmYyOTFjMTJlNDI0IiwidCI6IjEyYjQwYmQxLTllNjEtNDMyOS1iNGJmLTk2MjQ1NTgzOGQ4OCIsImMiOjEwfQ%3D%3D)
+ Or [Web](https://app.powerbi.com/view?r=eyJrIjoiMGZhYjY1NjItZDZiYS00NWRiLWE4NDAtNjQzMTMxZGVhMjU2IiwidCI6IjEyYjQwYmQxLTllNjEtNDMyOS1iNGJmLTk2MjQ1NTgzOGQ4OCIsImMiOjEwfQ%3D%3D)
 
 ![image](https://github.com/user-attachments/assets/ab7d0226-a395-44b8-bce6-84d87a950d4e)
 

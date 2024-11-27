@@ -338,7 +338,56 @@ DELIMITER ;
 CALL create_hr_star_schema();
 ```
 
+## Here is the table representation of the data for education levels:
 
+| EducationID | Education Level         |
+|-------------|-------------------------|
+| 1           | No Formal Qualifications |
+| 2           | High School             |
+| 3           | Bachelors               |
+| 4           | Masters                 |
+| 5           | Doctorate               |
+
+## Here is the table representation of the job satisfaction levels:
+
+| JobSatisfactionID | Job Satisfaction Level |
+|-------------------|------------------------|
+| 1                 | Very Dissatisfied      |
+| 2                 | Dissatisfied           |
+| 3                 | Neutral                |
+| 4                 | Satisfied              |
+| 5                 | Very Satisfied         |
+
+## Here is the table representation of the performance ratings:
+
+| PerformanceRatingID | Performance Rating     |
+|---------------------|------------------------|
+| 1                   | Unacceptable           |
+| 2                   | Needs Improvement      |
+| 3                   | Meets Expectation      |
+| 4                   | Exceeds Expectation    |
+| 5                   | Above and Beyond       |
+
+## Here is the employee table based on the provided data:
+
+| EmployeeID | FirstName | LastName | Gender   | Age | BusinessTravel | Department       | DistanceFromHome | State | Ethnicity          | EducationID | EducationField   | JobRole             | MaritalStatus | Salary | StockOptionLevel | OverTime | HireDate   | Attrition | YearsAtCompany | YearsInMostRecentRole | YearsSinceLastPromotion | YearsWithCurrManager | ReviewDate | EnvironmentSatisfaction | JobSatisfaction | RelationshipSatisfaction | TrainingOpportunitiesWithinYear | TrainingOpportunitiesTaken | WorkLifeBalanceRating | SelfRating | ManagerRating |
+|------------|-----------|----------|----------|-----|-----------------|------------------|------------------|-------|--------------------|-------------|------------------|----------------------|---------------|--------|------------------|----------|------------|-----------|----------------|-----------------------|--------------------------|----------------------|------------|------------------------|-----------------|--------------------------|--------------------------------|---------------------------|-----------------------|------------|---------------|
+| 3012-1A41  | Leonelle  | Simco    | Female   | 30  | Some Travel     | Sales            | 27               | IL    | White              | 5           | Marketing         | Sales Executive      | Divorced     | 102059 | 1                | No       | 2012-01-03 | No        | 10             | 4                     | 9                        | 7                     | 2014-10-31 | Neutral                | Satisfied        | Dissatisfied            | 1                              | 0                         | Meets Expectation      | 4          | 3             |
+| CBCB-9C9D  | Leonerd   | Aland    | Male     | 38  | Some Travel     | Sales            | 23               | CA    | White              | 4           | Marketing         | Sales Executive      | Single      | 157718 | 0                | Yes      | 2012-01-04 | No        | 10             | 6                     | 10                       | 0                     | 2015-03-25 | Very Satisfied         | Satisfied        | Satisfied               | 2                              | 1                         | Meets Expectation      | 5          | 4             |
+| 95D7-1CE9  | Ahmed     | Sykes    | Male     | 43  | Some Travel     | Human Resources  | 29               | CA    | Asian or Asian American | 4           | Marketing         | HR Business Partner  | Married     | 309964 | 1                | No       | 2012-01-04 | No        | 10             | 6                     | 10                       | 8                     | 2016-02-28 | Satisfied               | Satisfied        | Very Satisfied         | 4                              | 0                         | Exceeds Expectation    | 3          | 5             |
+| 47A0-559B  | Ermentrude| Berrie   | Non-Binary| 39  | Some Travel     | Technology       | 12               | IL    | White              | 3           | Computer Science  | Engineering Manager  | Married     | 293132 | 0                | No       | 2012-01-05 | No        | 10             | 10                    | 10                       | 0                     | 2018-07-23 | Very Dissatisfied       | Neutral          | Dissatisfied            | 3                              | 2                         | Needs Improvement      | 5          | 3             |
+| 42CC-040A  | Stace     | Savege   | Female   | 29  | Some Travel     | Human Resources  | 29               | CA    | White              | 2           | Technical Degree  | Recruiter            | Single      | 49606  | 0                | Yes      | 2012-01-05 | Yes       | 6              | 1                     | 1                        | 6                     | 2017-02-01 | Very Satisfied         | Very Satisfied   | Very Satisfied          | 1                              | 1                         | Exceeds Expectation    | 5          | 5             |
+
+
+## Here is the **Performance** table based on the provided data:
+
+| PerformanceID | EmployeeID | ReviewDate | JobSatisfaction | EnvironmentSatisfaction | RelationshipSatisfaction | WorkLifeBalanceRating | SelfRating | ManagerRating |
+|---------------|------------|------------|-----------------|--------------------------|--------------------------|-----------------------|------------|---------------|
+| PR01          | 79F7-78EC  | 1/2/2013   | 5               | 4                        | 5                        | 1                     | 0          | 4             |
+| PR02          | B61E-0F26  | 1/3/2013   | 5               | 4                        | 4                        | 1                     | 3          | 4             |
+| PR03          | F5E3-48BB  | 1/3/2013   | 3               | 4                        | 5                        | 3                     | 2          | 3             |
+| PR04          | 0678-748A  | 1/4/2013   | 5               | 3                        | 2                        | 2                     | 0          | 2             |
+| PR05          | 541F-3E19  | 1/4/2013   | 5               | 2                        | 3                        | 1                     | 0          | 4             |
 
 ### Step 2: Power BI Integration
 
@@ -467,59 +516,6 @@ ADDCOLUMNS(
     "Fiscal Month", MOD(MONTH([Date]) + (13 - _fiscalStart) - 1, 12) + 1
 )
 ```
-## Here is the table representation of the data for education levels:
-
-| EducationID | Education Level         |
-|-------------|-------------------------|
-| 1           | No Formal Qualifications |
-| 2           | High School             |
-| 3           | Bachelors               |
-| 4           | Masters                 |
-| 5           | Doctorate               |
-
-## Here is the table representation of the job satisfaction levels:
-
-| JobSatisfactionID | Job Satisfaction Level |
-|-------------------|------------------------|
-| 1                 | Very Dissatisfied      |
-| 2                 | Dissatisfied           |
-| 3                 | Neutral                |
-| 4                 | Satisfied              |
-| 5                 | Very Satisfied         |
-
-## Here is the table representation of the performance ratings:
-
-| PerformanceRatingID | Performance Rating     |
-|---------------------|------------------------|
-| 1                   | Unacceptable           |
-| 2                   | Needs Improvement      |
-| 3                   | Meets Expectation      |
-| 4                   | Exceeds Expectation    |
-| 5                   | Above and Beyond       |
-
-## Here is the employee table based on the provided data:
-
-| EmployeeID | FirstName | LastName | Gender   | Age | BusinessTravel | Department       | DistanceFromHome | State | Ethnicity          | EducationID | EducationField   | JobRole             | MaritalStatus | Salary | StockOptionLevel | OverTime | HireDate   | Attrition | YearsAtCompany | YearsInMostRecentRole | YearsSinceLastPromotion | YearsWithCurrManager | ReviewDate | EnvironmentSatisfaction | JobSatisfaction | RelationshipSatisfaction | TrainingOpportunitiesWithinYear | TrainingOpportunitiesTaken | WorkLifeBalanceRating | SelfRating | ManagerRating |
-|------------|-----------|----------|----------|-----|-----------------|------------------|------------------|-------|--------------------|-------------|------------------|----------------------|---------------|--------|------------------|----------|------------|-----------|----------------|-----------------------|--------------------------|----------------------|------------|------------------------|-----------------|--------------------------|--------------------------------|---------------------------|-----------------------|------------|---------------|
-| 3012-1A41  | Leonelle  | Simco    | Female   | 30  | Some Travel     | Sales            | 27               | IL    | White              | 5           | Marketing         | Sales Executive      | Divorced     | 102059 | 1                | No       | 2012-01-03 | No        | 10             | 4                     | 9                        | 7                     | 2014-10-31 | Neutral                | Satisfied        | Dissatisfied            | 1                              | 0                         | Meets Expectation      | 4          | 3             |
-| CBCB-9C9D  | Leonerd   | Aland    | Male     | 38  | Some Travel     | Sales            | 23               | CA    | White              | 4           | Marketing         | Sales Executive      | Single      | 157718 | 0                | Yes      | 2012-01-04 | No        | 10             | 6                     | 10                       | 0                     | 2015-03-25 | Very Satisfied         | Satisfied        | Satisfied               | 2                              | 1                         | Meets Expectation      | 5          | 4             |
-| 95D7-1CE9  | Ahmed     | Sykes    | Male     | 43  | Some Travel     | Human Resources  | 29               | CA    | Asian or Asian American | 4           | Marketing         | HR Business Partner  | Married     | 309964 | 1                | No       | 2012-01-04 | No        | 10             | 6                     | 10                       | 8                     | 2016-02-28 | Satisfied               | Satisfied        | Very Satisfied         | 4                              | 0                         | Exceeds Expectation    | 3          | 5             |
-| 47A0-559B  | Ermentrude| Berrie   | Non-Binary| 39  | Some Travel     | Technology       | 12               | IL    | White              | 3           | Computer Science  | Engineering Manager  | Married     | 293132 | 0                | No       | 2012-01-05 | No        | 10             | 10                    | 10                       | 0                     | 2018-07-23 | Very Dissatisfied       | Neutral          | Dissatisfied            | 3                              | 2                         | Needs Improvement      | 5          | 3             |
-| 42CC-040A  | Stace     | Savege   | Female   | 29  | Some Travel     | Human Resources  | 29               | CA    | White              | 2           | Technical Degree  | Recruiter            | Single      | 49606  | 0                | Yes      | 2012-01-05 | Yes       | 6              | 1                     | 1                        | 6                     | 2017-02-01 | Very Satisfied         | Very Satisfied   | Very Satisfied          | 1                              | 1                         | Exceeds Expectation    | 5          | 5             |
-
-
-## Here is the **Performance** table based on the provided data:
-
-| PerformanceID | EmployeeID | ReviewDate | JobSatisfaction | EnvironmentSatisfaction | RelationshipSatisfaction | WorkLifeBalanceRating | SelfRating | ManagerRating |
-|---------------|------------|------------|-----------------|--------------------------|--------------------------|-----------------------|------------|---------------|
-| PR01          | 79F7-78EC  | 1/2/2013   | 5               | 4                        | 5                        | 1                     | 0          | 4             |
-| PR02          | B61E-0F26  | 1/3/2013   | 5               | 4                        | 4                        | 1                     | 3          | 4             |
-| PR03          | F5E3-48BB  | 1/3/2013   | 3               | 4                        | 5                        | 3                     | 2          | 3             |
-| PR04          | 0678-748A  | 1/4/2013   | 5               | 3                        | 2                        | 2                     | 0          | 2             |
-| PR05          | 541F-3E19  | 1/4/2013   | 5               | 2                        | 3                        | 1                     | 0          | 4             |
-
-
-
 Once the **DimDate** table is created, it can be linked to other tables such as **Dim_Employee** and **Fact_PerformanceRating** using date-based relationships. This allows users to create time-based visualizations such as trends, comparisons, and performance evaluations across different time periods.
 
 ### Example Use Cases:

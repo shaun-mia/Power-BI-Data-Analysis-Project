@@ -131,6 +131,11 @@ Once the data is restructured and measures are created, use Power BI to place th
 - **Middle Section**: Crime Distribution (Bar charts showing crime types for each unit)
 - **Bottom Section**: Top 5 Crimes for each unit
 
+
+Live Dashboard: https://lnkd.in/g2UWZNqP
+
+Download the PDF dataset from the official website: [police.gov.bd](https://www.police.gov.bd/storage/upload/announcement/AMFCcIkA46b4sL1ijCMtSrzTE24Rd)
+
 ---
 
 ## Conclusion
@@ -143,10 +148,3 @@ This project provides a detailed overview of crime statistics in Bangladesh for 
 [![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shaun-mia)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shaun-mia/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shaunmia.cse@gmail.com)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-This README provides all the steps and includes the necessary DAX functions, measures, and visualizations. You can further expand it by adding more detailed explanations or specific steps if required.

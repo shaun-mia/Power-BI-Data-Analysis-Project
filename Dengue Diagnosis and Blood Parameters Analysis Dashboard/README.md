@@ -92,11 +92,6 @@ This dashboard provides a detailed analysis of dengue case data, focusing on age
 - **Demographic Slicers**: Gender, Age Group, and Result-based filters on relevant pages enable dynamic exploration.
 - **Linked Visuals**: Visuals on each page are interconnected to allow users to explore how changes in one metric affect others.
 
-
-Live Dashboard: https://lnkd.in/g2UWZNqP
-
-Download the PDF dataset from the official website: [police.gov.bd](https://www.police.gov.bd/storage/upload/announcement/AMFCcIkA46b4sL1ijCMtSrzTE24Rd)
-
 ---
 
 

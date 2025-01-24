@@ -1,0 +1,25 @@
+This file contains all the meta information regarding the columns described in the dataset file. The dataset includes data for Crime Statistics from January to November 2024 in Bangladesh. 
+
+We have provided a single dataset file:
+1. Crime_Statistics_2024
+
+Column Description for Crime_Statistics_2024:
+1. Names of Unit: This column represents the names of different police units and ranges in Bangladesh (e.g., DMP, CMP, Dhaka Range, etc.).
+2. Dacoity: This column represents the total number of reported dacoity cases for the specific unit in a given month.
+3. Robbery: This column represents the total number of reported robbery cases for the specific unit in a given month.
+4. Murder: This column represents the total number of reported murder cases for the specific unit in a given month.
+5. Speedy Trial: This column represents the total number of cases that were handled under the speedy trial law for the specific unit in a given month.
+6. Riot: This column represents the total number of reported riot cases for the specific unit in a given month.
+7. Woman & Child Repression: This column represents the total number of cases related to violence against women and children for the specific unit in a given month.
+8. Kidnapping: This column represents the total number of reported kidnapping cases for the specific unit in a given month.
+9. Police Assault: This column represents the total number of cases involving assault on police officers for the specific unit in a given month.
+10. Burglary: This column represents the total number of reported burglary cases for the specific unit in a given month.
+11. Theft: This column represents the total number of reported theft cases for the specific unit in a given month.
+12. Other Cases: This column represents the total number of cases not categorized under the above-mentioned crime types for the specific unit in a given month.
+13. Arms Act: This column represents the total number of cases registered under the Arms Act for the specific unit in a given month.
+14. Explosive Act: This column represents the total number of cases registered under the Explosive Act for the specific unit in a given month.
+15. Narcotics: This column represents the total number of cases related to narcotics recovery and arrests for the specific unit in a given month.
+16. Smuggling: This column represents the total number of cases involving smuggling for the specific unit in a given month.
+17. Total Cases: This column represents the aggregate number of all crime cases reported for the specific unit in a given month.
+18. Month: This column represents the month for which the data has been recorded (e.g., Jan, May, June, etc.).
+

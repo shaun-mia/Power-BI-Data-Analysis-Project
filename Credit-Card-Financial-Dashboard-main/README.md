@@ -1,78 +1,99 @@
-# Credit Card Financial Dashboard 💳
+# 💳 Credit Card Financial Dashboard  
 
-This project is a comprehensive analysis of credit card transactions and customer data, focusing on insights derived from two main perspectives: **Transaction Report** and **Customer Report**. The dashboard was created using **SQL** for data storage and manipulation, and **Power BI** for data visualization and analysis. The project integrates real-time data updates, calculated measures, and custom columns to provide actionable insights.
+🔗 **Live Dashboard:** [View on Portfolio](https://shaun-mia.netlify.app/projects/credit-card-financial-analysis)
 
-## Project Features 🚀
+This project presents a **comprehensive analysis of credit card transactions and customer data**, built to provide meaningful insights through two interactive dashboards — **Transaction Report** and **Customer Report**.  
 
-### 1. SQL Database Creation and Data Upload 📂
-- A relational database was designed in SQL to store credit card transaction data and customer data.
-- Data was uploaded into the SQL database and updated in real-time to reflect the latest transactions.
-- SQL queries were used to clean, transform, and structure the data for optimal use in Power BI.
+Developed using **SQL** for data management and **Power BI** for visualization, the project demonstrates real-time data integration, advanced DAX calculations, and dynamic reporting capabilities for financial and customer analytics.  
 
-### 2. Data Modeling and Transformations in Power BI 📊
-- Connected to the SQL database via Power BI for real-time data updates.
-- Created custom measures and calculated columns to extract deeper insights:
-  - **Revenue**, **Total Interest**, **Transaction Amount**, and **Transaction Count** were calculated for both dashboards.
-  - Other key measures included **Customer Acquisition Cost** (CAC) and **Sum of Fees**.
-- Data transformations were performed to ensure the datasets were optimized for analysis, including the use of **Power Query Editor** for data shaping and cleansing.
+---
 
-### 3. Credit Card Transaction Report 📈
-This dashboard focuses on credit card transaction data, providing insights into various metrics related to credit card usage, revenue generation, and customer expenditure.
+## 🚀 Project Features  
 
-#### Key Features:
-- **Total Revenue**: $57M
-- **Total Interest Earned**: $8M
-- **Total Transaction Amount**: $46M
-- **Transaction Count**: 667K
+### 1. SQL Database Creation and Data Upload 📂  
+- Designed a **relational SQL database** to store transaction and customer data.  
+- Enabled **real-time updates** to reflect the latest records.  
+- Used **SQL queries** for data cleaning, transformation, and preparation for Power BI integration.  
 
-#### Key Visualizations:
-- **Revenue by Card Category** (Blue, Silver, Gold, Platinum)
-- **Qtr Revenue & Transaction Count** (Comparison of revenue per quarter)
-- **Revenue by Expenditure Type** (Bills, Entertainment, Fuel, Grocery, etc.)
-- **Customer Acquisition Cost by Card Type**
-- **Revenue by Customer Job** (Businessman, Self-employed, White-collar, etc.)
-- **Revenue by Customer Education** (Graduate, High School, etc.)
+### 2. Data Modeling and Transformations in Power BI 📊  
+- Connected Power BI directly to the SQL database for seamless, real-time data refresh.  
+- Created **custom measures** and **calculated columns** using DAX, including:  
+  - **Revenue**, **Total Interest**, **Transaction Amount**, **Transaction Count**, and **Customer Acquisition Cost (CAC)**.  
+- Utilized **Power Query Editor** for data transformation and shaping.  
 
-![Credit Card Transaction Report](https://github.com/shaun-mia/Credit-Card-Financial-Dashboard/blob/main/Credit%20Card%20Transction.png)
+---
 
-### 4. Credit Card Customer Report 🧑‍💼
-This dashboard provides a customer-centric view, analyzing customer behavior, demographics, and revenue generation based on different attributes like age, income, and education.
+## 📈 Credit Card Transaction Report  
 
-#### Key Features:
-- **Total Income**: $588M
-- **Customer Satisfaction Score (CSS)**: 3.19
+This dashboard focuses on analyzing credit card transaction performance, helping uncover patterns in revenue generation and spending behavior.  
 
-#### Key Visualizations:
-- **Revenue by Gender** (Comparison of revenue between male and female customers over time)
-- **Top 5 Cities by Revenue**
-- **Revenue by Age Group** (20-30, 30-40, 40-50, 50-60, and 60+ years)
-- **Dependent Count** (Customer segment based on the number of dependents)
-- **Revenue by Marital Status** (Married, Single, etc.)
-- **Revenue by Education Level** (Graduate, High School, Post-Graduate, etc.)
-- **Revenue by Income Group** (Low, Medium, High income brackets)
+### Key Metrics:  
+- **Total Revenue:** $57M  
+- **Total Interest Earned:** $8M  
+- **Total Transaction Amount:** $46M  
+- **Transaction Count:** 667K  
 
-![Credit Card Customer Report](https://github.com/shaun-mia/Credit-Card-Financial-Dashboard/blob/main/Credit%20Card%20Customer.png)
+### Key Visuals:  
+- Revenue by **Card Category** (Blue, Silver, Gold, Platinum)  
+- Quarterly **Revenue & Transaction Count** comparison  
+- Revenue by **Expenditure Type** (Bills, Entertainment, Fuel, Grocery, etc.)  
+- **Customer Acquisition Cost** by card type  
+- Revenue by **Customer Job** (Businessman, Self-employed, etc.)  
+- Revenue by **Education Level**  
 
-## Technologies Used 💻
-- **SQL** for database creation and real-time data updates.
-- **Power BI** for creating dashboards, custom measures, and visualizations.
-- **DAX (Data Analysis Expressions)** for complex calculations and data modeling in Power BI.
+![Credit Card Transaction Report](https://github.com/shaun-mia/Credit-Card-Financial-Dashboard/blob/main/Credit%20Card%20Transction.png)  
 
-## Insights Generated 💡
-- Identified the highest revenue-generating card category (Blue Card).
-- Discovered the most popular expenditure type (Bills).
-- Analyzed customer acquisition costs and found swipe transactions were the most expensive.
-- Examined revenue by various demographic factors (age, education, job, etc.) to identify high-revenue customer segments.
-- Provided key insights into customer behavior based on income and dependent count.
+---
 
-## Contribution 🤝
-Feel free to fork this repository, make improvements, and submit a pull request. Contributions that enhance functionality or add new features are welcome!
+## 🧑‍💼 Credit Card Customer Report  
 
-## License 📜
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This dashboard offers a **customer-focused analysis**, exploring behavioral and demographic trends that impact revenue and satisfaction.  
 
-## Contact 📧
-For any questions or feedback, feel free to contact me:
+### Key Metrics:  
+- **Total Income:** $588M  
+- **Customer Satisfaction Score (CSS):** 3.19  
 
-- **Email**: shaunmia.cse@gmail.com  
-- **LinkedIn**: [Shaun Mia](https://www.linkedin.com/in/shaun-mia)
+### Key Visuals:  
+- Revenue by **Gender**  
+- **Top 5 Cities** by revenue  
+- Revenue by **Age Group** (20–30, 30–40, 40–50, 50–60, 60+)  
+- **Dependent Count** segmentation  
+- Revenue by **Marital Status**  
+- Revenue by **Education Level**  
+- Revenue by **Income Group** (Low, Medium, High)  
+
+![Credit Card Customer Report](https://github.com/shaun-mia/Credit-Card-Financial-Dashboard/blob/main/Credit%20Card%20Customer.png)  
+
+---
+
+## 💻 Technologies Used  
+- **SQL** → Database creation, queries, and real-time data updates  
+- **Power BI** → Dashboard design and visual analysis  
+- **DAX** → Advanced calculations and KPIs for performance insights  
+
+---
+
+## 💡 Key Insights  
+- The **Blue Card** category generated the highest revenue.  
+- **Bills** were the top expenditure type among customers.  
+- **Swipe transactions** had the highest acquisition cost.  
+- Revenue patterns varied significantly by **age**, **education**, **income**, and **occupation**, revealing high-value customer segments.  
+
+---
+
+## 🤝 Contribution  
+Contributions are welcome!  
+Feel free to **fork this repository**, make enhancements, and submit a pull request.  
+
+---
+
+## 📜 License  
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.  
+
+---
+
+## 📧 Contact  
+For any questions or collaboration inquiries:  
+- **Email:** [shaunmia.cse@gmail.com](mailto:shaunmia.cse@gmail.com)  
+- **LinkedIn:** [Shaun Mia](https://www.linkedin.com/in/shaun-mia)  
+- 🌐 **Portfolio:** [shaun-mia.netlify.app](https://shaun-mia.netlify.app/projects/credit-card-financial-analysis)
